@@ -33,11 +33,10 @@ class Hero extends Component {
                                     <div className="container-fluid">
                                         <div className="slide-content">
                                             <div className="slide-title">
-                                                <h2>We Fight For Your Justice As Like A Friend.</h2>
+                                                <h2>Streamline your government operations with our business solutions.</h2>
                                             </div>
                                             <div className="slide-text">
-                                                <p>Law is commonly understood as a system of rules that are created and enforced
-                                                    through social or government.</p>
+                                                <p>Essentially, business-to-government services create a system of rules and procedures that enable businesses to effectively navigate and participate in government operations.</p>
                                             </div>
                                             <div className="clearfix"></div>
                                             <div className="slide-btns">
@@ -53,11 +52,10 @@ class Hero extends Component {
                                     <div className="container-fluid">
                                         <div className="slide-content">
                                             <div className="slide-title">
-                                                <h2>We Fight For Your Justice As Like A Friend.</h2>
+                                                <h2>Streamline your government operations with our business solutions.</h2>
                                             </div>
                                             <div className="slide-text">
-                                                <p>Law is commonly understood as a system of rules that are created and enforced
-                                                    through social or government.</p>
+                                                <p>Essentially, business-to-government services create a system of rules and procedures that enable businesses to effectively navigate and participate in government operations.</p>
                                             </div>
                                             <div className="clearfix"></div>
                                             <div className="slide-btns">

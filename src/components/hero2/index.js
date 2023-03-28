@@ -16,7 +16,7 @@ const Hero2 =() => {
                 <div className="hero-inner">
                     <div className="container">
                         <div data-swiper-parallax="300" className="slide-title">
-                            <h2>We Fight For Your Justice As Like A Friend.</h2>
+                            <h2>Streamline your government operations with our business solutions.</h2>
                         </div>
                         <div data-swiper-parallax="400" className="slide-text">
                             <p>Law is commonly understood as a system of rules that are created and enforced

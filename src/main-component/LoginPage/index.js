@@ -44,7 +44,7 @@ const LoginPage = (props) => {
             const email = value.email;
 
             if (email.match(userRegex)) {
-                toast.success('You successfully Login on Canun !');
+                toast.success('You successfully Login on Gehen !');
                 props.history.push('/home');
             }
         } else {

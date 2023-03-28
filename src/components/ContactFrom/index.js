@@ -104,11 +104,9 @@ class ContactForm extends Component {
                         <div className="form-field">
                             <select className="form-control" onChange={this.changeHandler} value={subject} type="text" name="subject">
                                 <option >Subject</option>
-                                <option>Family Law</option>
-                                <option>Personal Injury</option>
-                                <option>Criminal Law</option>
-                                <option>Education Law</option>
-                                <option>Business Law</option>
+                                <option>3rd Party Monitoring</option>
+                                <option>B2G Solutions</option>
+                                <option>Promotional Items</option>
                             </select>
                             <p>{error.subject ? error.subject : ''}</p>
                         </div>

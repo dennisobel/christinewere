@@ -12,46 +12,46 @@ import sSingleimg2 from '../images/service-single/3.jpg'
 const Cases = [
     {
         Id: '1',
-        cTitle: 'Criminal Law', 
+        cTitle: '3rd Party Monitoring', 
         cImg:cimg1,
         ssImg1:sSingleimg1,
         ssImg2:sSingleimg2,
     },
     {
         Id: '2',
-        cTitle: 'Family Law', 
+        cTitle: 'B2G Solutions', 
         cImg:cimg2,
         ssImg1:sSingleimg1,
         ssImg2:sSingleimg2,
     },
     {
         Id: '3',
-        cTitle: 'Business Law', 
+        cTitle: 'Promotional Items', 
         cImg:cimg3,
         ssImg1:sSingleimg1,
         ssImg2:sSingleimg2,
     },
-    {
-        Id: '4',
-        cTitle: 'Real Estate', 
-        cImg:cimg4,
-        ssImg1:sSingleimg1,
-        ssImg2:sSingleimg2,
-    },
-    {
-        Id: '5',
-        cTitle: 'Personal Injury', 
-        cImg:cimg5,
-        ssImg1:sSingleimg1,
-        ssImg2:sSingleimg2,
-    },
-    {
-        Id: '6',
-        cTitle: 'Family Law', 
-        cImg:cimg6,
-        ssImg1:sSingleimg1,
-        ssImg2:sSingleimg2,
-    }
+    // {
+    //     Id: '4',
+    //     cTitle: 'Real Estate', 
+    //     cImg:cimg4,
+    //     ssImg1:sSingleimg1,
+    //     ssImg2:sSingleimg2,
+    // },
+    // {
+    //     Id: '5',
+    //     cTitle: 'Personal Injury', 
+    //     cImg:cimg5,
+    //     ssImg1:sSingleimg1,
+    //     ssImg2:sSingleimg2,
+    // },
+    // {
+    //     Id: '6',
+    //     cTitle: 'Family Law', 
+    //     cImg:cimg6,
+    //     ssImg1:sSingleimg1,
+    //     ssImg2:sSingleimg2,
+    // }
 ]
 
 export default Cases;

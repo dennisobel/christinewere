@@ -79,7 +79,7 @@ const Footer = (props) =>{
             <div className="container">
                 <div className="row">
                     <div className="col col-xs-12">
-                        <p className="copyright"> Copyright &copy; 2021 Canun by <Link onClick={ClickHandler} to="/">wpOceans</Link>. All Rights Reserved.</p>
+                        <p className="copyright"> Copyright &copy; 2021 gehen by <Link onClick={ClickHandler} to="/">wpOceans</Link>. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>

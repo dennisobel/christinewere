@@ -22,34 +22,34 @@ const Practice = (props) => {
     const Tabs = [
         {
             Id: '1',
-            tabItem: 'Personal Injury',
+            tabItem: '3rd Party Monitoring',
             tabNumber:'01'
         },
         {
             Id: '2',
-            tabItem: 'Family Law',
+            tabItem: 'B2G Solutions',
             tabNumber:'02'
         },
         {
             Id: '3',
-            tabItem: 'Criminal Law',
+            tabItem: 'Promotional Items',
             tabNumber:'03'
         },
-        {
-            Id: '4',
-            tabItem: 'Education Law',
-            tabNumber:'04'
-        },
-        {
-            Id: '5',
-            tabItem: 'Real Estate Law',
-            tabNumber:'05'
-        },
-        {
-            Id: '6',
-            tabItem: 'Business Law',
-            tabNumber:'06'
-        },
+        // {
+        //     Id: '4',
+        //     tabItem: 'Education Law',
+        //     tabNumber:'04'
+        // },
+        // {
+        //     Id: '5',
+        //     tabItem: 'Real Estate Law',
+        //     tabNumber:'05'
+        // },
+        // {
+        //     Id: '6',
+        //     tabItem: 'Business Law',
+        //     tabNumber:'06'
+        // },
     ]
 
 
@@ -61,7 +61,7 @@ const Practice = (props) => {
                 <div className="row align-items-center">
                     <div className="col-lg-5">
                         <div className="wpo-section-title">
-                            <h2>The Area Where We Practice Our Law</h2>
+                            <h2>Areas of work</h2>
                         </div>
                     </div>
                     <div className="col-lg-5 offset-lg-2">

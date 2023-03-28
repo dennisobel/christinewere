@@ -15,7 +15,7 @@ const BlogSection = (props) => {
                     <div className="col-lg-5">
                         <div className="wpo-section-title">
                             <h2>Meet Our Most Talented &
-                                Qualified Attorneys</h2>
+                                Qualified Consultants</h2>
                         </div>
                     </div>
                     <div className="col-lg-5 offset-lg-2">

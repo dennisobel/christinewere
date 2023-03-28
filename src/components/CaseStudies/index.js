@@ -10,9 +10,9 @@ import cimg6 from '../../images/case/img-6.jpg'
 class CaseStudies extends Component {
 
     state = {
-        onBusiness: false,
-        onCriminal: false,
-        onFamily: false,
+        onThrdParty: false,
+        onB2G: false,
+        onPromotional: false,
         onRealEstate: false,
         onPersonal: false,
         isOpen : false,
@@ -24,117 +24,117 @@ class CaseStudies extends Component {
         const allElement = event => {
             event.preventDefault();
             this.setState({
-                onFamily: true,
-                onCriminal: true,
-                onBusiness: true,
+                onPromotional: true,
+                onB2G: true,
+                onThrdParty: true,
                 onRealEstate: true,
             });
         }
 
-        const Business = event => {
+        const thrdParty = event => {
             event.preventDefault();
             this.setState({
-                onBusiness: true,
-                onCriminal: false,
-                onFamily: false,
+                onThrdParty: true,
+                onB2G: false,
+                onPromotional: false,
                 onRealEstate: false,
                 isOpen: true,
             });
         }
 
-        const Criminal = event => {
+        const b2gSolutions = event => {
             event.preventDefault();
             this.setState({
-                onCriminal: true,
-                onBusiness: false,
-                onFamily: false,
+                onB2G: true,
+                onThrdParty: false,
+                onPromotional: false,
                 onRealEstate: false,
                 isOpen: true,
             });
         }
 
-        const Family = event => {
+        const promotionalItems = event => {
             event.preventDefault();
             this.setState({
-                onFamily: true,
-                onCriminal: false,
-                onBusiness: false,
+                onPromotional: true,
+                onB2G: false,
+                onThrdParty: false,
                 onRealEstate: false,
                 isOpen: true,
             });
         }
 
-        const RealEstate = event => {
-            event.preventDefault();
-            this.setState({
-                onRealEstate: true,
-                onFamily: false,
-                onCriminal: false,
-                onBusiness: false,
-                isOpen: true,
-            });
-        }
-        const Personal = event => {
-            event.preventDefault();
-            this.setState({
-                onFamily: true,
-                onCriminal: true,
-                onBusiness: true,
-                onRealEstate: true,
-            });
-        }
+        // const RealEstate = event => {
+        //     event.preventDefault();
+        //     this.setState({
+        //         onRealEstate: true,
+        //         onPromotional: false,
+        //         onB2G: false,
+        //         onThrdParty: false,
+        //         isOpen: true,
+        //     });
+        // }
+        // const Personal = event => {
+        //     event.preventDefault();
+        //     this.setState({
+        //         onPromotional: true,
+        //         onB2G: true,
+        //         onThrdParty: true,
+        //         onRealEstate: true,
+        //     });
+        // }
 
 
         const Cases = [
             {
                 Id: '1',
-                cTitle: 'Criminal Law', 
-                filterName1: this.state.onCriminal,
-                filterName2: this.state.onFamily,
-                filterName3: this.state.onRealEstate,
-                filterName5: this.state.onPersonal,
+                cTitle: '3rd Party Monitoring', 
+                filterName1: this.state.onB2G,
+                filterName2: this.state.onPromotional,
+                // filterName3: this.state.onRealEstate,
+                // filterName5: this.state.onPersonal,
                 cImg:cimg1,
             },
             {
                 Id: '2',
-                cTitle: 'Family Law', 
-                filterName1: this.state.onBusiness,
-                filterName2: this.state.onCriminal,
-                filterName3: this.state.onFamily,
-                filterName4: this.state.onRealEstate,
-                filterName5: this.state.onPersonal,
+                cTitle: 'B2G Solutions', 
+                filterName1: this.state.onThrdParty,
+                filterName2: this.state.onB2G,
+                filterName3: this.state.onPromotional,
+                // filterName4: this.state.onRealEstate,
+                // filterName5: this.state.onPersonal,
                 cImg:cimg2,
             },
             {
                 Id: '3',
-                cTitle: 'Business Law', 
-                filterName1: this.state.onBusiness,
-                filterName2: this.state.onFamily,
+                cTitle: 'Promotional Items', 
+                filterName1: this.state.onThrdParty,
+                filterName2: this.state.onPromotional,
                 cImg:cimg3,
             },
-            {
-                Id: '4',
-                cTitle: 'Real Estate', 
-                filterName1: this.state.onCriminal,
-                filterName2: this.state.onRealEstate,
-                filterName5: this.state.onPersonal,
-                cImg:cimg4,
-            },
-            {
-                Id: '5',
-                cTitle: 'Personal Injury', 
-                filterName1: this.state.onFamily,
-                filterName2: this.state.onBusiness,
-                cImg:cimg5,
-            },
-            {
-                Id: '6',
-                cTitle: 'Family Law', 
-                filterName1: this.state.onBusiness,
-                filterName2: this.state.onCriminal,
-                filterName3: this.state.onFamily,
-                cImg:cimg6,
-            }
+            // {
+            //     Id: '4',
+            //     cTitle: 'Real Estate', 
+            //     filterName1: this.state.onB2G,
+            //     filterName2: this.state.onRealEstate,
+            //     filterName5: this.state.onPersonal,
+            //     cImg:cimg4,
+            // },
+            // {
+            //     Id: '5',
+            //     cTitle: 'Personal Injury', 
+            //     filterName1: this.state.onPromotional,
+            //     filterName2: this.state.onThrdParty,
+            //     cImg:cimg5,
+            // },
+            // {
+            //     Id: '6',
+            //     cTitle: 'Family Law', 
+            //     filterName1: this.state.onThrdParty,
+            //     filterName2: this.state.onB2G,
+            //     filterName3: this.state.onPromotional,
+            //     cImg:cimg6,
+            // }
         ]
 
         const ClickHandler = () =>{
@@ -166,11 +166,11 @@ class CaseStudies extends Component {
                                 <div className="gallery-filters case-menu">
                                     <ul>
                                         <li><Link to="/" className="current" onClick={allElement}>All Project</Link></li>
-                                        <li><Link to="/" onClick={Business}>Business</Link></li>
-                                        <li><Link to="/" onClick={Criminal}>Criminal</Link></li>
-                                        <li><Link to="/" onClick={Family}>Family Matter</Link></li>               
-                                        <li><Link to="/" onClick={RealEstate}>Real Estate</Link></li> 
-                                        <li><Link to="/" onClick={Personal}>Personal Injury</Link></li> 
+                                        <li><Link to="/" onClick={thrdParty}>3rd Party Monitoring</Link></li>
+                                        <li><Link to="/" onClick={b2gSolutions}>B2G Solutions</Link></li>
+                                        <li><Link to="/" onClick={promotionalItems}>Promotional Items</Link></li>               
+                                        {/* <li><Link to="/" onClick={RealEstate}>Real Estate</Link></li> 
+                                        <li><Link to="/" onClick={Personal}>Personal Injury</Link></li>  */}
                                     </ul>
                                 </div>
                             </div>

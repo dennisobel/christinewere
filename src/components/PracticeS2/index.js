@@ -16,7 +16,7 @@ const PracticeS2 = (props) => {
                 <div className="row align-items-center">
                     <div className="col-lg-5">
                         <div className="wpo-section-title">
-                            <h2>The Area Where We Practice Our Law</h2>
+                            <h2>Areas of work</h2>
                         </div>
                     </div>
                     <div className="col-lg-5 offset-lg-2">

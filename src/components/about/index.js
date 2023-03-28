@@ -17,7 +17,7 @@ const About = (props) => {
                         <div className="col-lg-7 col-md-12 col-12">
                             <div className="wpo-about-content">
                                 <div className="wpo-section-title">
-                                    <h2>We are here to fight against any violance with experience</h2>
+                                    <h2>We aim to provide businesses with the tools they need to succeed in the public sector</h2>
                                 </div>
                                 <div className="wpo-about-content-inner">
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable and going through the cites of the word in classNameical literature, discovered the
