@@ -11,7 +11,7 @@ const AttorneysPage =() => {
     return(
         <Fragment>
             <Navbar Logo={Logo}/>
-            <PageTitle pageTitle={'Attorneys'} pagesub={'Attorney'}/> 
+            <PageTitle pageTitle={'Consultants'} pagesub={'Consultants'}/> 
             <Attorney/>
             <Footer/>
             <Scrollbar/>
