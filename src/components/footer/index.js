@@ -156,7 +156,7 @@ const Footer = (props) => {
                 {" "}
                 Copyright &copy; 2021 gehen by{" "}
                 <Link onClick={ClickHandler} to="/">
-                  wpOceans
+                  dennisobel
                 </Link>
                 . All Rights Reserved.
               </p>
